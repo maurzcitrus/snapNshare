@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Upload Test Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1>Photo Upload Test</h1>
+    <form method="POST" action="timeline/dummy_user" 
+          enctype="multipart/form-data">
+      Name: 
+      <br/>
+      <input type="text" name="image_name" size="30">
+      <br/>
+      <br/>
+      File: 
+      <input type="file" name="image">
+      <br/>
+      <button type="submit">Save It</button>
+      <br/>
+    </form>
+  </body>
+</html>
